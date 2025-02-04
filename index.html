@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator</title>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.4/css/bulma.min.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <section class="section">
+            <div class="container">
+                <h1 class="title has-text-centered">Calculator</h1>
+                <div class="box calculator">
+                    <input id="display" class="input is-large" type="text"
+                        placeholder="0" readonly>
+                    <div class="buttons">
+                        <button class="button is-light">7</button>
+                        <button class="button is-light">8</button>
+                        <button class="button is-light">9</button>
+                        <button class="button is-danger">/</button>
+
+                        <button class="button is-light">4</button>
+                        <button class="button is-light">5</button>
+                        <button class="button is-light">6</button>
+                        <button class="button is-danger">*</button>
+
+                        <button class="button is-light">1</button>
+                        <button class="button is-light">2</button>
+                        <button class="button is-light">3</button>
+                        <button class="button is-danger">-</button>
+
+                        <button class="button is-light">0</button>
+                        <button class="button is-light">.</button>
+                        <button class="button is-success">=</button>
+                        <button class="button is-danger">+</button>
+
+                        <button
+                            class="button is-warning is-clear is-fullwidth">Clear</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <script src="app.js"></script>
+    </body>
+</html>
